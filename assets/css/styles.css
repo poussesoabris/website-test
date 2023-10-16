@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+/* generic */
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.relative{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* document */
+body{
+    position: absolute;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+    padding: 40px 15%;
+}
+
+h2{
+    color: #6f4b5d;
+    font-variant: all-petite-caps;
+    font-size: 1.8em;
+}
+img{
+    width: 100%;
+}
+footer{
+    color: white;
+    background-color: #6f4b5d;
+}
+footer a{
+    background-color: #6f4b5d;
+}
+
+/* sticky nav */
+.sticky-wrapper{
+    position: sticky;
+    top: 0;
+}
+.sticky{
+    background-color: #6b8e69;
+    height: 60px;
+    align-items: center;
+    padding: 0 10%;
+}
+.navigation-link{
+    height: fit-content;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navigation-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.first-section{
+    height: calc(100vh - 80px);
+    padding: 10px 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background: url(/assets/images/COUVERTURE.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.first-section-title{
+    font-size: 1.2em;
+    position: relative;
+    top: -25px;
+}
+.first-section-logo>img{
+    max-width: 300px;
+}
+.top-icon{
+    color: white;
+    font-size: 3em;
+    padding: 0 20px;
+}
+
+
+
+.ouverture{
+    color: white;
+    background-color: #6b8f69;
+    font-size: 1.5em;
+    text-align: center;
+}
+.ouverture span{
+    display: block;
+    font-size: 0.95em;
+    font-style: italic;
+}
+
+
+.team-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+    background-color: #6b8e69;
+    box-shadow: 0 3px 3px 3px lightgray;
+    border-radius: 20px;
+    padding: 10px 25px 7px;
+    text-decoration: none;
+    margin: 40px 70px;
+}
+.team-link:hover{
+    text-decoration: underline;
+}
+
+.yellow-spacer{
+    width: 100%;
+    height: 80px;
+    background-color: #f7c74b;
+}
+.yellow-spacer-tin{
+    height: 30px;
+}
