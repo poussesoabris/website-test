@@ -24,6 +24,9 @@
 .justify-content-around{
     justify-content: space-around;
 }
+.justify-content-end{
+    justify-content: flex-end;
+}
 .relative{
     position: relative;
 }
@@ -53,11 +56,15 @@ img{
     width: 100%;
 }
 footer{
+    padding: 40px 40px 20px;
     color: white;
     background-color: #6f4b5d;
 }
 footer a{
-    background-color: #6f4b5d;
+    color: white;
+}
+footer .team-link{
+    background-color: #f7c74b;
 }
 
 /* sticky nav */
