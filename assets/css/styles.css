@@ -1,56 +1,28 @@
 
-
-
-
-
-
-
-/* generic */
-.block{
-    display: block;
-}
-.inline{
-    display: inline;
-}
-.d-flex{
-    display: flex;
-}
-.justify-content-center{
-    justify-content: center;
-}
-.justify-content-between{
-    justify-content: space-between;
-}
-.justify-content-around{
-    justify-content: space-around;
-}
-.justify-content-end{
-    justify-content: flex-end;
-}
-.relative{
-    position: relative;
-}
-.text-center{
-    text-align: center;
-}
-
-
 /* document */
 body{
     position: absolute;
     margin: 0;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 section{
     padding: 40px 15%;
+    scroll-margin-top: 60px;
 }
 
 h2{
     color: #6f4b5d;
     font-variant: all-petite-caps;
     font-size: 1.8em;
+    margin-top: 0;
+}
+h3{
+    color: #6f4b5d;
+    font-variant: all-petite-caps;
+    font-size: 1.4em;
+    margin-top: 0;
 }
 img{
     width: 100%;
@@ -90,7 +62,7 @@ footer .team-link{
 }
 
 .first-section{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
     padding: 10px 20%;
     display: flex;
     flex-direction: column;
@@ -118,17 +90,37 @@ footer .team-link{
 }
 
 
+.objectifs ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+/* .objectifs li{
+    padding: 25px;
+    border: 1px solid #6f4b5d;
+} */
+.objectifs-nb{
+    display: inline;
+    text-align: start;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #6f4b5d;
+    /* padding-bottom: 10px; */
+    padding-right: 10px;
+}
 
 .ouverture{
     color: white;
-    background-color: #6b8f69;
+    background-color: #6f4b5d;
     font-size: 1.5em;
     text-align: center;
 }
 .ouverture span{
     display: block;
-    font-size: 0.95em;
+    font-size: 0.9em;
     font-style: italic;
+    padding-top: 7px;
 }
 
 
@@ -145,7 +137,15 @@ footer .team-link{
     margin: 40px 70px;
 }
 .team-link:hover{
+    color: white;
     text-decoration: underline;
+}
+.bg-yellow{
+    color: rgb(45, 45, 45);
+    background-color: #f7c74b;
+}
+.team-link.bg-yellow:hover{
+    color: rgb(45, 45, 45);
 }
 
 footer .team-link{
@@ -163,6 +163,7 @@ footer .team-link{
 .yellow-line{
     width: 50%;
     border: 1px solid #f7c74b;
+    margin: auto;
 }
 .team-img-container{
     max-height: 600px;
@@ -176,4 +177,16 @@ footer .team-link{
 }
 #l-equipe{
     padding: 40px 15% 0;
+}
+.encart{
+    /* font-size: 14px; */
+    padding: 15px;
+    border: 1px solid rgb(50, 50, 50);
+    /* color: #6f4b5d; */
+}
+.encart p{
+    margin-bottom: 7px;
+}
+.encart a{
+    color: #5f4050;
 }
